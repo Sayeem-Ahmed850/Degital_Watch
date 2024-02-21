@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-slate-800">
+    <div id="container">
+        <h1 class="text-wrap text-4xl font-serif tracking-wider text-center mb-10 text-white ">Degital Cloak</h1>
+        <!-- current time -->
+        <div class="flex justify-center items-center text-2xl sm:text-5xl">
+            <span id="hour" class="text-white bg-slate-700 p-5 rounded-md shadow-md sm:p-10 ">00</span>
+            <span class="text-white  mx-2">:</span>
+            <span id="minute" class="text-white bg-slate-700 p-5 rounded-md shadow-md sm:p-10">00</span>
+            <span class="text-white  mx-2">:</span>
+            <span id="second" class=" text-white bg-slate-700 p-5 rounded-md shadow-md sm:p-10">00</span>
+            <span class="text-white  mx-2">:</span>
+            <span id="am_pm" class=" text-white bg-slate-700 py-5 px-2 rounded-md shadow-md sm:p-10">AM</span>
+        </div>
+        <!-- current date -->
+        <div id="date" class=" flex justify-center items-center mt-10 bg-slate-700 text-center w-72  m-auto py-3  rounded-md shadow-md text-2xl sm:text-4xl sm:w-96">
+            <span id="month" class="text-white  mx-2 ">56</span>
+            <span class="text-white  mx-1">/</span>
+            <span id="day" class="text-white  mx-2">654</span>
+            <span class="text-white  mx-1">/</span>
+            <span id="year" class="text-white mx-2">654</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
